@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#Search{
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#Dados{
+    background-color:grey;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#info{
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    flex-flow: column nowrap;
+    flex:1;
+}
+
+#foto{
+    background-color: blue;  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100px;
+}
+
+#repo{
+    display:flex;
+    flex:1;
+    background-color: cornflowerblue;
+    flex-wrap: wrap;
+}
+
+#nick{
+    width: 15%;
+    background-color: white;
+    border: 5px solid #B22222;
+    padding: 12px 12px; 
+    margin-top: 15px;    
+    margin-right: 5px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#op{
+    border-radius:50%; 
+    border: 5px solid #B22222;
+    width: 65px;
+    margin-top: 15px; 
+    height: 65px;
+    margin-left:5px;
+    font-size: 25px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    outline-style: none;
+}
+
+#op:hover{
+    background-color: #B22222;
+    
+    transition: 0.3s ease;	
+	
+}
+
